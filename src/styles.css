@@ -38,7 +38,7 @@ form {
   margin: 30px auto;
 }
 
-.poem {
+.poem1 {
   display: block;
   margin: 30px auto;
   padding: 30px;
@@ -46,6 +46,20 @@ form {
   line-height: 1.5;
   text-align: left;
   border-left: solid #9b5ef0 1pt;
+}
+.poem2 {
+  display: block;
+  margin: 30px auto;
+  padding: 30px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  border-left: solid #9b5ef0 1pt;
+  font-style: italic;
+  line-height: 1.5;
+}
+.poem1 strong {
+  color: #9b5ef0;
 }
 
 a {
