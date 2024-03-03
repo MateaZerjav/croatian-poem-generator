@@ -8,40 +8,39 @@
   </head>
   <body>
     <div class="content">
-    <header>
-      <h1>AI Croatian poetry generator</h1>
-    </header>
-    <main>
-      <form>
-        <input class="poetry-topic-input"
-          type="text"
-          placeholder="Enter the topic of the poetry poem"
-          required
-        />
+      <header>
+        <h1>AI Croatian poetry generator</h1>
+      </header>
+      <main>
+        <form id="poem-generator-form">
+          <input
+            class="poetry-topic-input"
+            type="text"
+            placeholder="Enter the topic of the poetry poem"
+            required
+          />
 
-        <input type="submit" value="Submit" class="poetry-topic-submit" />
-      </form>
-      <div  class="poem">
-        Na pragu svetinje!</br>
-        Nikad više neću</br>
-        Nikom pravo biti,</br>
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/MateaZerjav" target="_blank">Matea Zerjav</a>
-      and is
-      <a
-        href="https://github.com/MateaZerjav/croatian-poetry-generator"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is
-      <a href="https://croatianversecraft.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
+          <input type="submit" value="Submit" class="poetry-topic-submit" />
+        </form>
+        <div class="poem" id="poem"></div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/MateaZerjav" target="_blank"
+          >Matea Zerjav</a
+        >
+        and is
+        <a
+          href="https://github.com/MateaZerjav/croatian-poetry-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://croatianversecraft.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
     </div>
     <script src="src/index.js"></script>
   </body>
