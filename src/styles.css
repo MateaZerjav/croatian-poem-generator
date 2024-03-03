@@ -44,7 +44,8 @@ form {
   padding: 30px;
   font-size: 15px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
+  border-left: solid #9b5ef0 1pt;
 }
 
 a {
