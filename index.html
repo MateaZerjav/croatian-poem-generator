@@ -7,20 +7,21 @@
     <title>AI Croatian poetry generator</title>
   </head>
   <body>
+    <div class="content">
     <header>
       <h1>AI Croatian poetry generator</h1>
     </header>
     <main>
       <form>
-        <input
+        <input class="poetry-topic-input"
           type="text"
           placeholder="Enter the topic of the poetry poem"
           required
         />
 
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" class="poetry-topic-submit" />
       </form>
-      <div>
+      <div  class="poem">
         Na pragu svetinje!</br>
         Nikad više neću</br>
         Nikom pravo biti,</br>
@@ -41,6 +42,7 @@
         >hosted on Netlify</a
       >.
     </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

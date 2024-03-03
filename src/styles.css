@@ -1,3 +1,60 @@
 body {
-  background-color: brown;
+  background-color: #eeebf1;
+  color: #3c3448;
+}
+.content {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+}
+header {
+  display: block;
+  margin: 30px auto;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  color: #efbed8;
+}
+.poetry-topic-input {
+  width: 80%;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  color: #35323a73;
+}
+.poetry-topic-submit {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  width: 20%;
+  background-color: #9b5ef0;
+  color: white;
+}
+form {
+  display: flex;
+  margin: 30px auto;
+}
+
+.poem {
+  display: block;
+  margin: 30px auto;
+  padding: 30px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+a {
+  color: #9b5ef0;
+}
+footer {
+  margin-top: 30px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-top: #4c4b4f5e dashed 0.5pt;
+  padding: 30px;
+  color: #35323aa3;
 }
