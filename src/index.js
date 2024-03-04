@@ -27,7 +27,8 @@ Please sign the poem with the name of the author,
 written  using HTML formatting.
 Provide the author name enclosed within the strong element at the end of the poetry.
 Ensure that the poem is sourced from real authors' works.
-Make sure that each line is displayed on a new row`;
+Make sure that each sentence is displayed on a new row. 
+Make sure that every generated poetry is displayed in 4 rows`;
 
   let apiKey = "636ft3f4ca7b895f0259dd71a1354d0o";
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
