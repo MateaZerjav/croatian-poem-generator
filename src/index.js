@@ -1,6 +1,5 @@
 function displayPoem(response) {
   let responseElement = response.data.answer;
-  document.getElementById("poem").classList.add("poem2");
 
   new Typewriter("#poem", {
     strings: responseElement,
@@ -33,7 +32,7 @@ Make sure that each line is displayed on a new row`;
   let apiKey = "636ft3f4ca7b895f0259dd71a1354d0o";
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  console.log(insertThemeElement);
+  document.getElementById("poem").classList.add("poem2");
   poemElement.innerHTML = "Generating piece of poetry....";
   axios.get(apiURL).then(displayPoem);
 }
